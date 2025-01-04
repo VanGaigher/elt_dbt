@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "elt-dbt"
+version = "0.1.0"
+description = ""
+authors = ["VanGaigher <vanessa.mat.sedu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.5"
+dbt-core = "^1.9.1"
+dbt-snowflake = "^1.9.0"
+dbt-postgres = "^1.9.0"
+dbt-redshift = "^1.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
