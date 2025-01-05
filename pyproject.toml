@@ -11,6 +11,10 @@ dbt-core = "^1.9.1"
 dbt-snowflake = "^1.9.0"
 dbt-postgres = "^1.9.0"
 dbt-redshift = "^1.9.0"
+python-dotenv = "^1.0.1"
+pandas = "^2.2.3"
+sqlalchemy = "^2.0.36"
+snowflake-sqlalchemy = "^1.7.2"
 
 
 [build-system]
